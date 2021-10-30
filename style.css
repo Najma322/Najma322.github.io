@@ -1,118 +1,118 @@
 #home {
-    width: relative;
+  width: relative;
 }
 
 .navbar {
-    width: auto;
+  width: auto;
 }
 
 .jumbotron {
-    background: linear-gradient(to right, #036380, #cdeaf3);
-    width: auto;
-    height: auto;
-    padding-top: 130px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: linear-gradient(to right, #036380, #cdeaf3);
+  width: auto;
+  height: auto;
+  padding-top: 130px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #Aboutme {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 #CV {
-    background: linear-gradient(to right, #036380, #cdeaf3);
-    width: relative;
+  background: linear-gradient(to right, #036380, #cdeaf3);
+  width: relative;
 }
 
 #SkillExp {
-    padding-top: 100px;
-    width: relative;
+  padding-top: 100px;
+  width: relative;
 }
 
 .btn {
-    background-color: #036380;
+  background-color: #036380;
 }
 
 .imageCV {
-    width: 600px;
-    height: auto;
+  width: 600px;
+  height: auto;
 }
 
 .container {
-    width: auto;
+  width: auto;
 }
 
 #jam {
-    text-align: center;
-    color: aliceblue;
+  text-align: center;
+  color: aliceblue;
 }
 
 .tanggal {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .icon {
-    margin-left: 350px;
-    margin-bottom: auto;
-    position: relative;
-    top: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
+  margin-left: 350px;
+  margin-bottom: auto;
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .tombol {
-    display: inline-block;
-    width: 75px;
-    height: 75px;
-    background: #f1f1f1;
-    margin: 10px;
-    border-radius: 20%;
-    box-sizing: 0 5px 15px -5px #043a5070;
-    overflow: hidden;
-    position: relative;
-    color: #2980b9;
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 20%;
+  box-sizing: 0 5px 15px -5px #043a5070;
+  overflow: hidden;
+  position: relative;
+  color: #2980b9;
 }
 
 .tombol i {
-    transition: 0.2s linear;
-    font-size: 26px;
-    line-height: 90px;
+  transition: 0.2s linear;
+  font-size: 26px;
+  line-height: 90px;
 }
 
 .tombol:hover i {
-    transform: scale(1, 3);
-    color: #f1f1f1;
+  transform: scale(1, 3);
+  color: #f1f1f1;
 }
 
 .tombol::before {
-    content: '';
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    left: -110px;
-    top: 90%;
-    transform: rotate(45deg);
-    background: #3498db;
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: -110px;
+  top: 90%;
+  transform: rotate(45deg);
+  background: #3498db;
 }
 
 .tombol:hover::before {
-    left: -10%;
-    top: -10%;
-    animation: aaa 0.7s 1;
+  left: -10%;
+  top: -10%;
+  animation: aaa 0.7s 1;
 }
 
 @keyframes aaa {
-    0% {
-        left: -110%;
-        top: 90%;
-    }
-    50% {
-        left: 10%;
-        top: -30%;
-    }
-    100% {
-        left: -10%;
-        top: -10%;
-    }
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+  100% {
+    left: -10%;
+    top: -10%;
+  }
 }
