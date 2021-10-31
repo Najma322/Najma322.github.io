@@ -1,17 +1,17 @@
 #home {
-  width: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .navbar {
-  width: auto;
+  width: 100%;
 }
 
 .jumbotron {
   background: linear-gradient(to right, #036380, #cdeaf3);
-  width: auto;
-  height: auto;
   padding-top: 130px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
 }
 
 #Aboutme {
@@ -51,7 +51,7 @@
 }
 
 .icon {
-  margin-left: 350px;
+  margin-left: 200px;
   margin-bottom: auto;
   position: relative;
   top: 50%;
@@ -115,4 +115,15 @@
     left: -10%;
     top: -10%;
   }
+}
+
+.card {
+  width: 100%;
+  height: auto;
+}
+
+#GithubTutorial {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
